@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta_title">originZero.Art: Be Discovered. Online Presence for Independent Creators</title>
+  <meta name="description" content="originZero.Art helps independent creators and artists worldwide present their work online without technical barriers or IT complexity.">
+  <link rel="canonical" href="https://originzero.art/">
+  
+  <!-- Open Graph / WhatsApp / Facebook / LinkedIn -->
+  <meta property="og:site_name" content="originZero.Art">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://originzero.art/">
+  <meta property="og:title" content="originZero.Art: Be Discovered. Online Presence for Independent Creators">
+  <meta property="og:description" content="originZero.Art helps independent creators and artists worldwide present their work online without technical barriers or IT complexity.">
+  <meta property="og:image" content="https://originzero.art/assets/og/originzero-og-preview.png?v=2">
+  <meta property="og:image:secure_url" content="https://originzero.art/assets/og/originzero-og-preview.png?v=2">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="originZero.Art // Be Discovered. Online Presence for Independent Creators">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="originZero.Art: Be Discovered. Online Presence for Independent Creators">
+  <meta name="twitter:description" content="originZero.Art helps independent creators and artists worldwide present their work online without technical barriers or IT complexity.">
+  <meta name="twitter:image" content="https://originzero.art/assets/og/originzero-og-preview.png?v=2">
+  <meta name="twitter:image:alt" content="originZero.Art // Be Discovered. Online Presence for Independent Creators">
+  
+  <!-- Favicon suite: Golden emblem with silver luster -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  <link rel="alternate icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Progressive Enhancement: ensure content is fully visible when JavaScript is disabled (Googlebot / No-JS) -->
+  <noscript>
+    <style>
+      .reveal-on-scroll {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+  
+  <!-- Google Fonts for editorial typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header-wrapper">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="originZero.Art home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name"><span class="brand-char-gold">o</span><span class="brand-char-silver">rigin</span><span class="brand-char-gold">Z</span><span class="brand-char-silver">ero</span><span class="brand-art">.Art</span></span>
+      </a>
+
+      <nav id="primary-nav" class="nav-menu" aria-label="Primary site navigation">
+        <a href="#problem" class="nav-link" data-i18n="nav_problem">The Challenge</a>
+        <a href="#how-it-works" class="nav-link" data-i18n="nav_how">How It Works</a>
+        <a href="#example" class="nav-link" data-i18n="nav_example">Showcase</a>
+        <a href="#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a>
+        <a href="#manifesto" class="nav-link" data-i18n="nav_manifesto">Manifesto</a>
+        <a href="#contact" class="btn btn-primary nav-mobile-cta" data-i18n="nav_cta">Hello</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Platform Information & Community Model Modal Trigger -->
+        <button id="info-modal-btn" class="info-icon-btn" type="button" aria-label="Platform Information and Community Model" data-i18n-aria="info_btn_aria" title="Platform Information">
+          <span class="info-glyph" aria-hidden="true">i</span>
+        </button>
+
+        <!-- Theme Switcher -->
+        <button id="theme-toggle-btn" class="theme-switcher-btn" type="button" aria-label="Toggle dark or light theme">
+          <span id="theme-icon" class="theme-icon" aria-hidden="true">◐</span>
+          <span id="theme-label" class="theme-label" data-i18n="theme_toggle_label">Theme</span>
+        </button>
+
+        <!-- Language Switcher -->
+        <div id="lang-toggle-btn" class="lang-switcher-btn" role="group" aria-label="Language selection">
+          <button id="lang-indicator-en" class="lang-opt active" type="button" aria-label="English language" aria-pressed="true">EN</button>
+          <span class="lang-divider" aria-hidden="true">/</span>
+          <button id="lang-indicator-ro" class="lang-opt" type="button" aria-label="Limba română" aria-pressed="false">RO</button>
+        </div>
+
+        <a href="#contact" class="btn btn-primary btn-sm nav-desktop-cta" data-i18n="nav_cta">Hello</a>
+
+        <!-- Mobile hamburger toggle -->
+        <button id="mobile-menu-btn" class="mobile-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content reveal-on-scroll">
+            <div class="badge-pill">
+              <span class="badge-pulse"></span>
+              <span data-i18n="hero_badge">Independent Creator Initiative</span>
+            </div>
+            
+            <h1 class="hero-headline" data-i18n="hero_title">Your work deserves to be found.</h1>
+            
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+              originZero.Art helps independent creators and artists across the globe build an elegant online presence, completely free of technical hurdles, code, or complexity.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_primary">Hello</a>
+              <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="hero_cta_secondary">See an example</a>
+            </div>
+          </div>
+
+          <div class="hero-visual-card luxury-card reveal-on-scroll reveal-delay-1">
+            <!-- Bespoke Editorial Vector Art Composition (Strictly Gold, Silver, White, Black) -->
+            <svg class="hero-artwork-canvas" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" data-i18n-aria="alt_hero_visual" aria-label="Artistic geometric composition illustrating creative discovery">
+              <defs>
+                <linearGradient id="orbit-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ffd700" stop-opacity="0.9"/>
+                  <stop offset="50%" stop-color="#d4af37" stop-opacity="0.4"/>
+                  <stop offset="100%" stop-color="#aa7c11" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="core-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ffd700" stop-opacity="0.45"/>
+                  <stop offset="100%" stop-color="#070709" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <rect width="600" height="500" rx="16" fill="#0b0b0e" stroke="rgba(192,192,192,0.15)"/>
+              <!-- Harmonic concentric geometry representing resonance and discovery -->
+              <circle cx="300" cy="250" r="190" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+              <circle cx="300" cy="250" r="140" stroke="rgba(192,192,192,0.12)" stroke-width="1" stroke-dasharray="4 6" class="orbit-slow-reverse"/>
+              <circle cx="300" cy="250" r="90" stroke="url(#orbit-grad)" stroke-width="2" class="orbit-slow-spin"/>
+              <circle cx="300" cy="250" r="46" fill="url(#core-glow)"/>
+              <circle cx="300" cy="250" r="6" fill="#ffd700" class="core-pulse-node"/>
+              
+              <!-- Dynamic human creative vector arcs (Gold and Silver) -->
+              <path d="M120 380 C 200 320, 260 180, 480 150" stroke="#d4af37" stroke-width="1.75" stroke-opacity="0.85" fill="none"/>
+              <path d="M140 400 C 240 360, 340 140, 460 210" stroke="#c0c0c0" stroke-width="1" stroke-dasharray="2 4" fill="none"/>
+              <path d="M220 100 C 310 160, 390 320, 470 360" stroke="#ffd700" stroke-width="1.2" stroke-opacity="0.4" fill="none"/>
+              
+              <!-- Delicate typographic anchor marks -->
+              <text x="40" y="55" fill="#c0c0c0" font-family="monospace" font-size="12" letter-spacing="2">originZero.Art // STUDIO DISCOVERY</text>
+              <text x="40" y="465" fill="#d4af37" font-family="monospace" font-size="12" letter-spacing="1">COORD: 757.originZero.Art</text>
+              <text x="450" y="465" fill="#ffffff" font-family="monospace" font-size="11">HUMAN CRAFT</text>
+            </svg>
+
+            <div class="hero-badge-overlay">
+              <span data-i18n="hero_badge_note">Focus purely on your craft</span>
+              <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer">757.originZero.Art ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="problem-section">
+      <div class="container container-narrow">
+        <span class="section-tag reveal-on-scroll" data-i18n="problem_tag">The Challenge</span>
+        <h2 class="section-title reveal-on-scroll" data-i18n="problem_title">Great work gets lost when the web feels out of reach.</h2>
+        
+        <div class="problem-card luxury-card reveal-on-scroll">
+          <p class="problem-text" data-i18n="problem_p1">
+            Across studios, workbenches, and quiet rooms, dedicated painters, sculptors, composers, photographers, poets, and artisans craft original works in silence. Yet finding their creations online is often an uphill battle. This is not because the work lacks depth or beauty, but because building a modern digital presence demands specialized technical knowledge, endless maintenance, and time stolen from the craft itself.
+          </p>
+          <p class="problem-text" data-i18n="problem_p2">
+            Artists should not have to become software administrators, SEO technicians, or social media performers simply to show the world what they create. True craft deserves an uncluttered home where people who care can find it without friction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How originzero.art Helps Section -->
+    <section id="how-it-works" class="how-section">
+      <div class="container">
+        <span class="section-tag reveal-on-scroll" data-i18n="how_tag">Our Approach</span>
+        <h2 class="section-title reveal-on-scroll" data-i18n="how_title">A straightforward path from your studio to the world.</h2>
+        <p class="section-subtitle reveal-on-scroll" data-i18n="how_subtitle">We remove technical barriers so your creation speaks for itself.</p>
+
+        <div class="steps-grid">
+          <div class="step-card luxury-card reveal-on-scroll reveal-delay-1">
+            <span class="step-number">STEP 01</span>
+            <h3 class="step-title" data-i18n="how_step1_title">1. Tell us about your craft</h3>
+            <p class="step-desc" data-i18n="how_step1_desc">Share your portfolio, your creative direction, and what you want the world to discover.</p>
+          </div>
+
+          <div class="step-card luxury-card reveal-on-scroll reveal-delay-2">
+            <span class="step-number">STEP 02</span>
+            <h3 class="step-title" data-i18n="how_step2_title">2. We shape a dedicated space</h3>
+            <p class="step-desc" data-i18n="how_step2_desc">We prepare a clean, fast, distraction-free web destination tailored to your work.</p>
+          </div>
+
+          <div class="step-card luxury-card reveal-on-scroll reveal-delay-3">
+            <span class="step-number">STEP 03</span>
+            <h3 class="step-title" data-i18n="how_step3_title">3. Focus purely on creating</h3>
+            <p class="step-desc" data-i18n="how_step3_desc">No server setups, no DNS configurations, and no code updates to worry about.</p>
+          </div>
+        </div>
+
+        <!-- Honest specification placeholder -->
+        <div class="placeholder-notice reveal-on-scroll" role="note">
+          <span data-i18n="how_placeholder">[Process & Deliverables Specification: Full workflow and delivery timelines to be finalized before public launch]</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Example / Showcase Section -->
+    <section id="example" class="example-section">
+      <div class="container">
+        <div class="showcase-header">
+          <span class="section-tag reveal-on-scroll" data-i18n="example_tag">Live Showcase</span>
+          <h2 class="section-title reveal-on-scroll" data-i18n="example_title">See how creator spaces look in practice.</h2>
+          <p class="section-subtitle reveal-on-scroll" data-i18n="example_subtitle">Explore authentic living destinations created under the originZero.Art initiative.</p>
+        </div>
+
+        <!-- Featured Showcase 1: 757.originZero.Art (Fine Art & Identity) -->
+        <div class="example-card luxury-card reveal-on-scroll">
+          <div class="example-info">
+            <span class="badge-pill-sm" data-i18n="example_757_tag">Fine Art &amp; Identity</span>
+            <h3 class="example-title"><a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-title-anchor" data-i18n="example_757_title">757: Curatorial Art Showcase</a></h3>
+            <p class="example-desc" data-i18n="example_757_desc">
+              A curatorial gallery dedicated to painting, designed for clarity, speed, and contemplation, protected from the noise of algorithmic feeds.
+            </p>
+            <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="example_757_cta">
+              Explore 757.originZero.Art
+            </a>
+          </div>
+
+          <div class="example-preview-box">
+            <div class="example-frame">
+              <div class="example-browser-bar">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="example-domain-pill">757.originZero.Art ↗</a>
+              </div>
+              <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="example-image-link" aria-label="Visit 757.originZero.Art showcase">
+                <img src="assets/images/showcase-757.jpg" alt="Preview of 757.originZero.Art creator showcase platform" class="example-screenshot" width="1024" height="557" loading="lazy" decoding="async" data-i18n-alt="alt_example_visual">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Demo Spaces Grid: spARTan & CrimaDezignz -->
+        <div class="showcase-subgrid">
+          <!-- Space 2: spartan.originZero.Art -->
+          <div class="showcase-subcard luxury-card reveal-on-scroll reveal-delay-1">
+            <div class="example-browser-bar">
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <a href="https://spartan.originzero.art" target="_blank" rel="noopener noreferrer" class="example-domain-pill">spartan.originZero.Art ↗</a>
+            </div>
+            <div class="subcard-content">
+              <div class="subcard-header-row">
+                <img src="assets/logo/spartan-logo-square.png" alt="spARTan visual identity emblem" class="showcase-logo-img" width="56" height="56" loading="lazy" decoding="async" data-i18n-alt="alt_logo_spartan">
+                <div class="subcard-title-group">
+                  <span class="badge-pill-sm" data-i18n="example_spartan_tag">Visual Identity &amp; 3D Space</span>
+                  <h3 class="subcard-title"><a href="https://spartan.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-title-anchor" data-i18n="example_spartan_title">spARTan Visual Identity Portfolio</a></h3>
+                </div>
+              </div>
+              <p class="subcard-desc" data-i18n="example_spartan_desc">
+                Dedicated portfolio space presenting over 340 verified marks across 2D Swiss Grid layouts and interactive 3D spatial exploration.
+              </p>
+              <a href="https://spartan.originzero.art" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-i18n="example_spartan_cta">
+                Explore spartan.originZero.Art
+              </a>
+            </div>
+          </div>
+
+          <!-- Space 3: crimadezignz.originZero.Art -->
+          <div class="showcase-subcard luxury-card reveal-on-scroll reveal-delay-2">
+            <div class="example-browser-bar">
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <a href="https://crimadezignz.originzero.art" target="_blank" rel="noopener noreferrer" class="example-domain-pill">crimadezignz.originZero.Art ↗</a>
+            </div>
+            <div class="subcard-content">
+              <div class="subcard-header-row">
+                <img src="assets/logo/crimadezignz-logo-avatar.jpg" alt="CrimaDezignz trademark avatar" class="showcase-logo-img" width="56" height="56" loading="lazy" decoding="async" data-i18n-alt="alt_logo_crima">
+                <div class="subcard-title-group">
+                  <span class="badge-pill-sm" data-i18n="example_crima_tag">Trademark Atelier &amp; Crests</span>
+                  <h3 class="subcard-title"><a href="https://crimadezignz.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-title-anchor" data-i18n="example_crima_title">CrimaDezignz Avant-Garde Atelier</a></h3>
+                </div>
+              </div>
+              <p class="subcard-desc" data-i18n="example_crima_desc">
+                Monumental trademark design, tactical crests, and optical geometry presented with custom cursor choreography and darkroom aesthetics.
+              </p>
+              <a href="https://crimadezignz.originzero.art" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-i18n="example_crima_cta">
+                Explore crimadezignz.originZero.Art
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="example-note-box reveal-on-scroll" data-i18n="example_note">
+          Note: <a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-inline-anchor">757.originZero.Art</a>, <a href="https://spartan.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-inline-anchor">spartan.originZero.Art</a>, and <a href="https://crimadezignz.originzero.art" target="_blank" rel="noopener noreferrer" class="showcase-inline-anchor">crimadezignz.originZero.Art</a> illustrate real-world creator presentations. They are presented as-is without claimed metrics or unverified guarantees.
+        </div>
+
+        <!-- Fallback crawlable showcase directory for search engines (Googlebot) and non-JavaScript clients -->
+        <noscript>
+          <div class="example-note-box" style="margin-top: 24px;">
+            <p><strong>Independent Creator Showcase Spaces:</strong></p>
+            <ul>
+              <li><a href="https://757.originzero.art" target="_blank" rel="noopener noreferrer">757.originZero.Art</a> &middot; Curatorial Fine Art and Identity Showcase</li>
+              <li><a href="https://spartan.originzero.art" target="_blank" rel="noopener noreferrer">spartan.originZero.Art</a> &middot; Visual Identity and 3D Space Portfolio</li>
+              <li><a href="https://crimadezignz.originzero.art" target="_blank" rel="noopener noreferrer">crimadezignz.originZero.Art</a> &middot; Trademark Atelier and Tactical Crests</li>
+            </ul>
+          </div>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+      <div class="container">
+        <span class="section-tag reveal-on-scroll" data-i18n="benefits_tag">Why originZero.Art</span>
+        <h2 class="section-title reveal-on-scroll" data-i18n="benefits_title">Built for creators, not algorithms.</h2>
+
+        <div class="benefits-grid">
+          <div class="benefit-card luxury-card reveal-on-scroll reveal-delay-1">
+            <h3 class="benefit-title" data-i18n="benefits_b1_title">A Dedicated Home</h3>
+            <p class="benefit-desc" data-i18n="benefits_b1_desc">A focused, ad-free environment where your portfolio is not buried under algorithm changes or social noise.</p>
+          </div>
+
+          <div class="benefit-card luxury-card reveal-on-scroll reveal-delay-2">
+            <h3 class="benefit-title" data-i18n="benefits_b2_title">Easy for People to Find You</h3>
+            <p class="benefit-desc" data-i18n="benefits_b2_desc">A clean web address you can share with galleries, collectors, clients, and supporters anywhere.</p>
+          </div>
+
+          <div class="benefit-card luxury-card reveal-on-scroll reveal-delay-3">
+            <h3 class="benefit-title" data-i18n="benefits_b3_title">Zero Technical Knowledge Needed</h3>
+            <p class="benefit-desc" data-i18n="benefits_b3_desc">Request assistance and guidance without ever needing to learn web programming, hosting, or deployment.</p>
+          </div>
+
+          <div class="benefit-card luxury-card reveal-on-scroll reveal-delay-1">
+            <h3 class="benefit-title" data-i18n="benefits_b4_title">Honest &amp; Independent</h3>
+            <p class="benefit-desc" data-i18n="benefits_b4_desc">No lock-in, no deceptive subscriptions, and no fabricated promises of overnight fame.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manifesto Section (Contains the single English sentence on original human craft) -->
+    <section id="manifesto" class="manifesto-section">
+      <div class="container">
+        <div class="manifesto-wrapper reveal-on-scroll">
+          <span class="section-tag" data-i18n="manifesto_tag">Our Conviction</span>
+          <h2 class="manifesto-headline" data-i18n="manifesto_title">Human expression is irreplaceable.</h2>
+          
+          <p class="manifesto-lead" data-i18n="manifesto_p1">
+            Art is never mere content. It is living thought, silence, patience, and vulnerability forged through human hands and real-world friction.
+          </p>
+
+          <p class="manifesto-highlight" data-i18n="manifesto_p2">
+            In the era of AI, human imagination and original craft deserve to be seen and celebrated.
+          </p>
+
+          <p class="manifesto-close" data-i18n="manifesto_p3">
+            When algorithmic mass production threatens to drown authentic voices in synthetic noise, originZero.Art stands as a quiet, dedicated home. We ensure genuine creators are not rendered invisible. When artists thrive, human culture endures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form / Outreach Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="form-layout">
+          <div class="form-header-col reveal-on-scroll">
+            <span class="section-tag" data-i18n="contact_tag">Get In Touch</span>
+            <h2 class="section-title" data-i18n="contact_title">Let us help bring your work to light.</h2>
+            <p class="section-subtitle" data-i18n="contact_subtitle">
+              Tell us about yourself and what you create. We will review your message personally.
+            </p>
+
+            <div class="founder-direct-box" style="margin-top: 24px; padding: 16px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--border-radius-sm);">
+              <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 10px;" data-i18n="contact_founder_note">
+                Prefer direct communication with the founder? You can also reach Sebastian Banszky directly via his personal portal:
+              </p>
+              <a href="https://banszky.men/#contact" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-i18n="contact_founder_btn">
+                Founder Portal (banszky.men) ↗
+              </a>
+            </div>
+
+            <div class="form-meta-notices">
+              <div class="placeholder-notice" role="note">
+                <span data-i18n="form_status_timeline">[Response Timeline: Estimated reply within 48-72 hours / To be confirmed before official launch]</span>
+              </div>
+              <div class="placeholder-notice" role="note">
+                <span data-i18n="form_config_notice">[Contact Destination: Configured to contact@originZero.Art. Update in configuration prior to production release]</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-card luxury-card reveal-on-scroll">
+            <form id="creator-contact-form" novalidate>
+              <div class="form-group">
+                <label for="creator-name" class="form-label" data-i18n="form_name_label">Your Name</label>
+                <input type="text" id="creator-name" class="form-control" data-i18n-placeholder="form_name_placeholder" placeholder="e.g. Maria Chen" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="creator-email" class="form-label" data-i18n="form_email_label">Email Address</label>
+                <input type="email" id="creator-email" class="form-control" data-i18n-placeholder="form_email_placeholder" placeholder="e.g. maria@example.com" required autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label for="creator-craft" class="form-label" data-i18n="form_craft_label">Creative Discipline</label>
+                <select id="creator-craft" class="form-control">
+                  <option value="" data-i18n="form_craft_opt_default">Select your creative discipline...</option>
+                  <option value="visual" data-i18n="form_craft_opt_visual">Visual Arts &amp; Illustration</option>
+                  <option value="photography" data-i18n="form_craft_opt_photo">Photography</option>
+                  <option value="music" data-i18n="form_craft_opt_music">Music &amp; Sound Design</option>
+                  <option value="crafts" data-i18n="form_craft_opt_crafts">Crafts, Sculpture &amp; Handmade</option>
+                  <option value="writing" data-i18n="form_craft_opt_writing">Writing &amp; Poetry</option>
+                  <option value="design" data-i18n="form_craft_opt_design">Design &amp; Architecture</option>
+                  <option value="other" data-i18n="form_craft_opt_other">Other Creative Field</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="creator-message" class="form-label" data-i18n="form_msg_label">Message or Link to Your Work (Optional)</label>
+                <textarea id="creator-message" class="form-control" data-i18n-placeholder="form_msg_placeholder" placeholder="Share a brief note about what you make or a link to your current work..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit_btn">
+                Send Inquiry
+              </button>
+
+              <div id="form-feedback" class="form-feedback-area"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Information Modal Dialog (Modern Web Guidance: Native HTML5 <dialog> & Top Layer API) -->
+    <dialog id="info-modal" class="info-modal-dialog" aria-labelledby="modal-transparency-title">
+      <button id="info-modal-close" class="info-modal-close-btn" type="button" aria-label="Close information window" data-i18n-aria="transparency_modal_close">
+        ✕
+      </button>
+      <span class="section-tag">
+        <span class="info-glyph-badge" aria-hidden="true">i</span>
+        <span data-i18n="transparency_tag">Platform Information</span>
+      </span>
+      <h2 id="modal-transparency-title" class="section-title" style="margin-top: 12px; margin-bottom: 20px;" data-i18n="transparency_title">Transparent Community &amp; Economic Model</h2>
+      <p class="transparency-lead" data-i18n="transparency_intro">
+        originZero.Art gives artists a quiet space to present their work and prices, completely free of sales fees or commissions. Conversations and sales happen privately, directly between artist and collector.
+      </p>
+      <p class="transparency-lead-host" data-i18n="transparency_lead_host">
+        Today, originZero.Art is sustained directly by its founder. As we open up to public donations and grants, community funds will be held transparently through a European non-profit fiscal host (with a public ledger of all income and expenses), while dedicated technical services are billed separately and lawfully under European regulations.
+      </p>
+      <p class="transparency-lead-muted" data-i18n="transparency_revenue_lead">
+        Once community donations, sponsorships, or revenue from dedicated subdomains begin, funds will be shared as follows (note: institutional research and software grants follow their own dedicated budgets):
+      </p>
+
+      <div class="info-splits-grid">
+        <div class="info-split-item">
+          <span class="info-split-pct">50%</span>
+          <p class="info-split-text" data-i18n="transparency_split_50">
+            50%: Shared Across the Community. Distributed among active artists on the platform (excluding the donor) through creator stipends and art commissions. It works much like a network switch broadcast, where a signal reaches every connected port except the one that sent it.
+          </p>
+        </div>
+        <div class="info-split-item">
+          <span class="info-split-pct">20%</span>
+          <p class="info-split-text" data-i18n="transparency_split_20">
+            20%: Supporting New Voices. Directed toward welcoming and supporting promising artists and craftspeople, guided by recommendations from the community and reviewed by the project stewards.
+          </p>
+        </div>
+        <div class="info-split-item">
+          <span class="info-split-pct">30%</span>
+          <p class="info-split-text" data-i18n="transparency_split_30">
+            30%: Keeping the Lights On. Covers servers, security, domains, and the day-to-day engineering and administration needed to run and improve the platform. Over time, surplus resources may also help people or causes in need.
+          </p>
+        </div>
+      </div>
+
+      <div class="transparency-governance-box">
+        <p data-i18n="transparency_governance">
+          Suggestions from the community guide how we support new creators; silence or abstention is never read as disagreement.
+        </p>
+      </div>
+
+      <div class="transparency-closing-banner">
+        <p class="transparency-closing-text" data-i18n="transparency_closing">
+          We want to build together, guided by clear principles, free from division or greed.
+        </p>
+      </div>
+
+      <div class="transparency-commons-box">
+        <p class="transparency-commons-text" data-i18n="transparency_commons">
+          Technical architecture &amp; open principles: <a href="/commons" class="transparency-commons-link">originZero.Art/commons</a>
+        </p>
+      </div>
+    </dialog>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="#" class="brand-logo" aria-label="originZero.Art home">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span class="brand-name"><span class="brand-char-gold">o</span><span class="brand-char-silver">rigin</span><span class="brand-char-gold">Z</span><span class="brand-char-silver">ero</span><span class="brand-art">.Art</span></span>
+          </a>
+          <p data-i18n="footer_tagline">Supporting independent creators worldwide to be discovered and heard.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-heading" data-i18n="footer_quicklinks">Navigation</span>
+          <a href="#problem" class="footer-link" data-i18n="nav_problem">The Challenge</a>
+          <a href="#how-it-works" class="footer-link" data-i18n="nav_how">How It Works</a>
+          <a href="#example" class="footer-link" data-i18n="nav_example">Showcase</a>
+          <a href="#benefits" class="footer-link" data-i18n="nav_benefits">Benefits</a>
+          <a href="#manifesto" class="footer-link" data-i18n="nav_manifesto">Manifesto</a>
+          <a href="#contact" class="footer-link" data-i18n="nav_cta">Hello</a>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-heading" data-i18n="footer_governance_heading">Principles</span>
+          <a href="/commons" class="footer-link" data-i18n="footer_governance">Principles &amp; Open Source</a>
+          <a href="https://github.com/originzero-art" target="_blank" rel="noopener noreferrer" class="footer-link" data-i18n="footer_github">GitHub: originzero-art</a>
+          <a href="https://banszky.men/#contact" target="_blank" rel="noopener noreferrer" class="footer-link" data-i18n="footer_founder_label">Founder: banszky.men</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer_placeholder_legal">[Privacy Policy &amp; Terms: To be completed and published prior to official launch]</span>
+        <span data-i18n="footer_copyright">© 2026 originZero.Art · Dedicated to human creativity.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

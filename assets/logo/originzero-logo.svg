@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <!-- Radiant Metallic Gold & Liquid Silver Radial Core -->
+    <radialGradient id="rootDotCore" cx="36%" cy="36%" r="64%">
+      <stop offset="0%" stop-color="#fff4c2"/>
+      <stop offset="35%" stop-color="#dfb743"/>
+      <stop offset="70%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#8a6104"/>
+    </radialGradient>
+
+    <!-- Warm Resonant Halo Glow -->
+    <filter id="rootGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Radiant Aura -->
+  <circle cx="256" cy="256" r="160" fill="url(#rootDotCore)" opacity="0.2" filter="url(#rootGlow)"/>
+  <circle cx="256" cy="256" r="110" fill="url(#rootDotCore)" opacity="0.45" filter="url(#rootGlow)"/>
+
+  <!-- Root Dot Core (The Singularity / Coordinate 0,0) -->
+  <circle cx="256" cy="256" r="72" fill="url(#rootDotCore)"/>
+  <circle cx="256" cy="256" r="26" fill="#ffffff" opacity="0.85"/>
+</svg>
