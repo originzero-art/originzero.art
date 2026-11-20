@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+
+# Dependencies & Build
+node_modules/
+dist/
+target/
+zero-origin/target/
+*.db
+*.db-wal
+*.db-shm
+
+# Antigravity Scratch
+scratch/
+
+# Security Agent Ignore
+*.pem
+*.key
+
+# Hidden / Private Drafts
+ai.html
+og-preview.jpg
+
+# Public Open-Source Mirror & Standalone Repositories
+originzero-art-public/
+zero-origin/
+unsafe.originzero.art/
+scanner.originzero.art/

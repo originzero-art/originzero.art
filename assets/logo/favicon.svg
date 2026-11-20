@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <radialGradient id="favRootDot" cx="36%" cy="36%" r="64%">
+      <stop offset="0%" stop-color="#fff4c2"/>
+      <stop offset="40%" stop-color="#dfb743"/>
+      <stop offset="75%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#8a6104"/>
+    </radialGradient>
+    <filter id="favGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Dark Disc Canvas for Perfect Visibility Across All Tabs -->
+  <circle cx="32" cy="32" r="30.5" fill="#08080a" stroke="#222228" stroke-width="1"/>
+
+  <!-- Luminous Root Dot Aura -->
+  <circle cx="32" cy="32" r="14" fill="url(#favRootDot)" opacity="0.35" filter="url(#favGlow)"/>
+
+  <!-- Core Root Dot (Point Zero) -->
+  <circle cx="32" cy="32" r="9" fill="url(#favRootDot)"/>
+  <circle cx="32" cy="32" r="3" fill="#ffffff" opacity="0.9"/>
+</svg>
